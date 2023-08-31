@@ -15,6 +15,3 @@ interestRate = 1;
 console.log(interestRate)
 
 const interest = 5;
-
-//add line 19
-//add line 20
