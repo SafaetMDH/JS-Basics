@@ -15,3 +15,6 @@ interestRate = 1;
 console.log(interestRate)
 
 const interest = 5;
+
+let age = 30;
+let herAge = 25;
