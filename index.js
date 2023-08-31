@@ -1,20 +1,8 @@
-let name = 'Safaet Hosan';
 
-console.log(name);
-
-let firsName = 'Safaet'
-let lastName = 'Hosan'
-
-console.log(firsName+lastName)
+let name = 'Safaet'; // String
+let age = 30; // Number
+let isApproved = false; // Boolean
+let firstName = undefined;
+let selectedColor = null;
 
 
-let interestRate = 0.3;
-
-interestRate = 1;
-
-console.log(interestRate)
-
-const interest = 5;
-
-let age = 30;
-let herAge = 25;
