@@ -17,8 +17,8 @@ function letterFinder(word, match) {
     }
 }
 
-/**
- * Here are the tasks to complete:
+/*
+  --- Here are the tasks to complete: ---
 
 1.Just above the for loop in the letterFinder function definition, 
 declare a variable named condition1 and assign to it the following code: 
