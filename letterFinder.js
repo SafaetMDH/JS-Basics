@@ -7,15 +7,23 @@
 */
 
 function letterFinder(word, match) {
+
     for(i = 0; i < word.length; i++) {
+
         if(word[i] == match) {
+            
             //if the current character at position i in the word is equal to the match
             console.log('Found the', match, 'at', i)
+
         } else {
+
             console.log('---No match found at', i)
+
         }
     }
 }
+
+letterFinder("HELLO", 'O');
 
 /*
   --- Here are the tasks to complete: ---
@@ -46,21 +54,30 @@ and pass it with correct arguments, such as: letterFinder("cat", "c").
  */
 
 function letterFinder(word, match) {
+
     // Task 1: Declare condition1
     let condition1 = typeof(word) == 'string' && word.length >= 2;
+
     // Task 2: Declare condition2
     let condition2 = typeof(match) == 'string' && match.length == 1;
 
     // Task 3: Check conditions in an if statement
     if (condition1 && condition2) {
+
         // Task 4: Move the rest of the function body into this if block
         for (i = 0; i < word.length; i++) {
+
             if (word[i] == match) {
+
                 console.log('Found the', match, 'at', i)
+
             } else {
+
                 console.log('---No match found at', i)
+
             }
         }
+        
     } else {
         // Task 5: Add an else block
         console.log("Please pass correct arguments to the function.");
