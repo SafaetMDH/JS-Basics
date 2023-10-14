@@ -1,11 +1,15 @@
+function test(num){
 
-function meal(animal) {
-    animal.food = animal.food + 10;
+    if(num > 10){
+
+        return "Bigger then 10"
+
+    }
+    // else{
+
+    //     return "10 Or Less"
+
+    // }
 }
 
-var dog = {
-    food: 10
-};
-
-meal(dog);
-meal(dog);
+console.log(test(7))
